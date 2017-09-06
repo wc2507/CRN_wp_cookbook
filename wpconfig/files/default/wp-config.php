@@ -14,7 +14,7 @@
  * @package WordPress
  */
 
-//define('WP_REDIS_HOST', 'wordpress.e6dowe.0001.usw2.cache.amazonaws.com');
+define('WP_REDIS_HOST', 'wordpress.e6dowe.0001.usw2.cache.amazonaws.com');
  
 define('WP_HOME','http://' . $_SERVER['HTTP_HOST'] . '/');
 define('WP_SITEURL','http://' . $_SERVER['HTTP_HOST'] . '/');
